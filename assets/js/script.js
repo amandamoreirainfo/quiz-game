@@ -2,7 +2,7 @@
 
 const questions = [
     {
-        question: "Which is larget animal in the world?",
+        question: "A - Which is larget animal in the world?",
         answers: [
 
              {text: "Shark", correct: false},
@@ -14,7 +14,7 @@ const questions = [
     },
 
     {
-        question: "Which is larget animal in the world?",
+        question: "B - Which is larget animal in the world?",
         answers: [
 
              {text: "Shark", correct: false},
@@ -26,7 +26,7 @@ const questions = [
     },
 
     {
-        question: "Which is larget animal in the world?",
+        question: "C - Which is larget animal in the world?",
         answers: [
 
              {text: "Shark", correct: false},
@@ -38,7 +38,7 @@ const questions = [
     },
 
     {
-        question: "Which is larget animal in the world?",
+        question: "D - is larget animal in the world?",
         answers: [
 
              {text: "Shark", correct: false},
@@ -62,7 +62,7 @@ function startQuiz(){
 
     currentQuestionIndex = 0;
     score = 0;
-    nextButton.innerHtml = "Next";
+    nextButton.innerHTML = "Next";
     showQuestion();
 
 }
@@ -135,8 +135,8 @@ function selectAnswer(e){
 function showScore(){
 
     resetState();
-    questionElement.innerHTML = `Yoy scored 
-    ${score} out of ${questions.lenght}!`;
+    questionElement.innerHTML = `You scored 
+    ${score} out of ${questions.length}!`;
     nextButton.innerHTML = "Play Again";
     nextButton.style.display = "block";
     
@@ -145,7 +145,7 @@ function showScore(){
 function handleNextButton(){
 
     currentQuestionIndex++;
-    if(currentQuestionIndex < questions.lenght){
+    if(currentQuestionIndex < questions.length){
 
         showQuestion();
 
