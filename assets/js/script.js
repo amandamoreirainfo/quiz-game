@@ -2,52 +2,65 @@
 
 const questions = [
     {
-        question: "A - Which is larget animal in the world?",
+        question: "Which alternative way to ask a question is correct?",
         answers: [
 
-             {text: "Shark", correct: false},
-             {text: "Blue whale", correct: true},
-             {text: "Elephant", correct: false},
-             {text: "Giraffe", correct: false},
+             {text: "You are actor ?", correct: false},
+             {text: "Am I chefs ?", correct: false},
+             {text: "She is a teacher ?", correct: false},
+             {text: "Is he a student ?", correct: true},
 
         ]
     },
 
     {
-        question: "B - Which is larget animal in the world?",
+        question: "Which sentence corresponds: Eles são bonitos ?",
         answers: [
 
-             {text: "Shark", correct: false},
-             {text: "Blue whale", correct: false},
-             {text: "Elephant", correct: false},
-             {text: "Giraffe", correct: true},
+             {text: "He is handsome", correct: false},
+             {text: "She is pretty", correct: false},
+             {text: "They're good looking", correct: true},
+             {text: "Is she cute ?", correct: false},
 
         ]
     },
 
     {
-        question: "C - Which is larget animal in the world?",
+        question: "Which of the alternatives corresponds to the number 150?",
         answers: [
 
-             {text: "Shark", correct: false},
-             {text: "Blue whale", correct: false},
-             {text: "Elephant", correct: true},
-             {text: "Giraffe", correct: false},
+             {text: "One hundred Fifty", correct: true},
+             {text: "Fifty one", correct: false},
+             {text: "Six", correct: false},
+             {text: "One hundred Twenty seven", correct: false},
 
         ]
     },
 
     {
-        question: "D - is larget animal in the world?",
+        question: "Which alternative corresponds to - Qual é a idade do seu irmão ?",
         answers: [
 
-             {text: "Shark", correct: false},
-             {text: "Blue whale", correct: false},
-             {text: "Elephant", correct: true},
-             {text: "Giraffe", correct: false},
+             {text: "How old is your dog?", correct: false},
+             {text: "How old are they ?", correct: false},
+             {text: "How old is she?", correct: false},
+             {text: "How old is your brother?", correct: true},
+
+        ]
+    },
+
+    {
+        question: "Which of the alternatives corresponds to the number 6239?",
+        answers: [
+            
+             {text: "Two Hundred", correct: false},
+             {text: "Seven Hundred Thrity Four", correct: false},
+             {text: "Six thousand Two hundred Thrity Nine", correct: true},
+             {text: "Twenty Two", correct: false},
 
         ]
     }
+
 
 ];
 
